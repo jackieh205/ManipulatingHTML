@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let element = document.getElementById("div1");
     element.appendChild(para);
     para.addEventListener('click', function (event) {
-        event.target.style.color = "pink";
+        event.target.style.color = "red";
     });
     document.body.appendChild(para);
 
