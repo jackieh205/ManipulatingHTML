@@ -7,7 +7,11 @@ $(document).ready(function () {
 
     });
 
+    $("#myBtn").click(function () {
+        var str = $("#myInput").val();
+        alert(str);
 
+    });
 
 
     $("#div1").mouseover(function () {
@@ -21,13 +25,9 @@ $(document).ready(function () {
                 $('#div1').css({
                     'backgroundColor': '',
                 })
-            })
+            });
 
-        $("#myBtn").click(function () {
-            var str = $("#myInput").val();
-            alert(str);
 
-        })
 
 
 
